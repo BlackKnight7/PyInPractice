@@ -12,16 +12,13 @@ def create_diagram(factory):
 
 
 def main():
-    txtFilename = ''
-    svgFilename = ''
-
     # create txt Diagram
     txtDiagram = create_diagram(DiagramFactory())
-    txtDiagram.save(txtFilename)
+    txtDiagram.show()
 
     # create svg Diagram
-    svgDiagram = create_diagram(SvgDiagramFactory())
-    svgDiagram.save(svgFilename)
+    # svgDiagram = create_diagram(SvgDiagramFactory())
+    # svgDiagram.show()
     pass
 
 if __name__ == '__main__':

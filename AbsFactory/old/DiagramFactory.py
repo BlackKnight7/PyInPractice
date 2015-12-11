@@ -11,3 +11,5 @@ class DiagramFactory:
 
     def make_text(self, x, y, text, fontsize=12):
         return Text(x, y, text, fontsize)
+
+

@@ -4,5 +4,5 @@ class SvgDiagram(object):
             for x, char in enumerate(row):
                 self.diagram[y + component.y][x + component.x] = char
 
-    def save(self):
+    def show(self):
         print(self.diagram)
