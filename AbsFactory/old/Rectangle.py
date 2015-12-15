@@ -4,4 +4,4 @@ class Rectangle:
         self.y = y
         self.width = width
         self.height = height
-        self.rows = [list("#")]
+        self.rows = [['%'] * width] * height
