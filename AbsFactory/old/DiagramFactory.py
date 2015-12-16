@@ -2,6 +2,7 @@ from old.Diagram import Diagram
 from old.Rectangle import Rectangle
 from old.Text import Text
 
+
 class DiagramFactory:
     def make_diagram(self, width, height):
         return Diagram(width, height)
@@ -11,5 +12,3 @@ class DiagramFactory:
 
     def make_text(self, x, y, text, fontsize=12):
         return Text(x, y, text, fontsize)
-
-

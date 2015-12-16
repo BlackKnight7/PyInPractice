@@ -14,11 +14,11 @@ def create_diagram(factory):
 def main():
     # create txt Diagram
     txtDiagram = create_diagram(DiagramFactory())
-    txtDiagram.show()
+    txtDiagram.save()
 
     # create svg Diagram
-    # svgDiagram = create_diagram(SvgDiagramFactory())
-    # svgDiagram.show()
+    svgDiagram = create_diagram(SvgDiagramFactory())
+    svgDiagram.save()
     pass
 
 if __name__ == '__main__':

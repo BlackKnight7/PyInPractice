@@ -1,8 +1,14 @@
-class SvgDiagram(object):
-    def add(self, component):
-        for y, row in enumerate(component.rows):
-            for x, char in enumerate(row):
-                self.diagram[y + component.y][x + component.x] = char
+import svgwrite
 
-    def show(self):
-        print(self.diagram)
+
+class SvgDiagram:
+    def __init__(self, width, height):
+        self.height = height
+        self.width = width
+        self.dwg = svgwrite.Drawing('test.svg', profile='tiny')
+
+    def add(self, component):
+        self.dwg.add(component.rows)
+
+    def save(self):
+        self.dwg.save()

@@ -9,5 +9,5 @@ class Diagram:
             for x, char in enumerate(row):
                 self.diagram[y + component.y][x + component.x] = char
 
-    def show(self):
+    def save(self):
         print(self.diagram)
