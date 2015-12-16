@@ -1,3 +1,4 @@
 .idea
 *.foo
 PyKnightEv
+*.pyc
