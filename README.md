@@ -17,7 +17,7 @@ These samples here are related to the book << Python in Practice >>. And here is
   
   1.5 Singleton Pattern
 
-### 2. Structural design pattern
+### 2. Structural Design Pattern
   
   2.1 Adapter Pattern
   
@@ -26,6 +26,36 @@ These samples here are related to the book << Python in Practice >>. And here is
   2.3 Composite Pattern
   
   2.4 Decorator Pattern
+  
+  2.5 Facade Pattern
+  
+  2.6 Flyweight Pattern
+  
+  2.7 Proxy Pattern
+  
+ ### 3. Action Design Pattern
+ 
+  3.1 Chain of Responsibility Pattern
+  
+  3.2 Command Pattern
+  
+  3.3 Interpreter Pattern
+  
+  3.4 Iterator Pattern
+  
+  3.5 Mediator Pattern
+  
+  3.6 Memento Pattern
+  
+  3.7 Observer Pattern
+  
+  3.8 State Pattern
+  
+  3.9 Strategy Pattern
+  
+  3.10 Template Method Pattern
+  
+  3.11 Vistor Pattern
 
 
 Best wishes to all python leaners. If you have any question, you can email to me or leave a comment. We can discuss together.
