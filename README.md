@@ -33,7 +33,7 @@ These samples here are related to the book << Python in Practice >>. And here is
   
   2.7 Proxy Pattern
   
- ### 3. Action Design Pattern
+### 3. Action Design Pattern
  
   3.1 Chain of Responsibility Pattern
   
