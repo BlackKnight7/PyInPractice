@@ -1,5 +1,5 @@
-from HtmlFormBuilder import HtmlFormBuilder
-from TkFormBuilder import TkFormBuilder
+from Builder.HtmlFormBuilder import HtmlFormBuilder
+from Builder.TkFormBuilder import TkFormBuilder
 
 
 def create_login_form(builder):
@@ -15,10 +15,10 @@ def create_login_form(builder):
 
 def main():
     htmlForm = create_login_form(HtmlFormBuilder())
-    htmlForm.show()
+    htmlForm.save()
 
     tkForm = create_login_form(TkFormBuilder())
-    tkForm.show()
+    tkForm.save()
 
 
 if __name__ == '__main__':
