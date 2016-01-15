@@ -58,6 +58,9 @@ These samples here are related to the book << Python in Practice >>. And here is
   3.11 Vistor Pattern
 
 
+There is one new smaple named 'CSharpDllFun', this sample used IronPython to call C# dll. And  all files of C# project are  in the CSharp folder. Then we need to build the dll and copy the dll out.
+
+
 Best wishes to all python leaners. If you have any question, you can email to me or leave a comment. We can discuss together.
 
 -- "Happy wife, happy life"
